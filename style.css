@@ -4,7 +4,8 @@
     margin: 10% auto;
     font-size: 40px;
     text-align: center;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 7px 7px 7px black;
+    background-color:whitesmoke;
 }
 h1
 {
@@ -31,3 +32,7 @@ h1
     color: whitesmoke;
     background-color: black;
 }
+#count {
+    font-size: 6rem;
+    font-weight: bold;
+  }
