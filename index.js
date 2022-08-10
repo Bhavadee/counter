@@ -5,23 +5,23 @@ function increment()
 {
     count = count + 1
     view.innerText = count
-    setColor();
+    settColor();
 }
 
 function decrement()
 {
     count = count - 1
     view.innerText = count
-    setColor();
+    settColor();
 }
 function reset()
 {
     count = 0
     view.innerText = count
-    setColor();
+    settColor();
 }
 
-function setColor(){
+function settColor(){
     if(count>0){
         view.style.color="green";
     }
